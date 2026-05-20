@@ -1,0 +1,60 @@
+{
+  "name": "aem-live-docs-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for searching Adobe Experience Manager (AEM) documentation at aem.live. Provides AI assistants with tools to search, browse, and read official AEM guides — developer tutorials, authoring, CDN setup, blocks, Edge Delivery Services, Sidekick, performance, and more.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "aem-live-docs-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "start:http": "node dist/index.js --http",
+    "dev": "tsx src/index.ts",
+    "dev:http": "tsx src/index.ts --http",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "aem",
+    "adobe-experience-manager",
+    "edge-delivery-services",
+    "aem-live",
+    "documentation",
+    "blocks",
+    "sidekick",
+    "ai",
+    "cursor",
+    "claude"
+  ],
+  "license": "MIT",
+  "author": "Jigar Karangiya",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jigarkkarangiya/aem-live-docs-mcp"
+  },
+  "homepage": "https://github.com/jigarkkarangiya/aem-live-docs-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/jigarkkarangiya/aem-live-docs-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "fast-xml-parser": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
