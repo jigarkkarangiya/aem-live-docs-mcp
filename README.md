@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/aem-live-docs-mcp)](https://www.npmjs.com/package/aem-live-docs-mcp)
 [![npm downloads](https://img.shields.io/npm/dm/aem-live-docs-mcp)](https://www.npmjs.com/package/aem-live-docs-mcp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
 [![MCP](https://img.shields.io/badge/MCP-compatible-purple)](https://modelcontextprotocol.io/)
 
@@ -96,15 +96,13 @@ npm install && npm run build
 
 ---
 
-## Example Outputs
+## Example Queries
 
-**Querying supported content types in AEM:**
-
-![AEM content types query result](5b96f50c-5e27-4bda-8a44-800408ac7080.png)
-
-**Asking how AEM integrates with Adobe Commerce:**
-
-![AEM and Adobe Commerce integration](79806a86-0604-4530-b2dd-b755ea131613.png)
+- *"What content types does AEM Edge Delivery support?"*
+- *"How do I create a custom AEM block?"*
+- *"How does AEM Edge Delivery integrate with Adobe Commerce?"*
+- *"How do I configure Fastly CDN with AEM?"*
+- *"What's the Sidekick and how does it work?"*
 
 ---
 
@@ -183,11 +181,15 @@ Server listens on `http://localhost:3000` with CORS enabled.
 
 ## Related MCPs
 
-- [adobe-commerce-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-docs-mcp) — Adobe Commerce merchant/user/admin docs (experienceleague.adobe.com)
-- [adobe-commerce-dev-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-dev-docs-mcp) — Adobe Commerce developer docs (developer.adobe.com/commerce)
+- [`adobe-commerce-docs-mcp`](https://www.npmjs.com/package/adobe-commerce-docs-mcp) — Adobe Commerce merchant & admin docs (experienceleague.adobe.com)
+- [`adobe-commerce-dev-docs-mcp`](https://www.npmjs.com/package/adobe-commerce-dev-docs-mcp) — Adobe Commerce developer docs (developer.adobe.com/commerce)
+- [`adobe-app-builder-docs-mcp`](https://www.npmjs.com/package/adobe-app-builder-docs-mcp) — Adobe App Builder — serverless, I/O Runtime, Commerce extensibility
+- [`adobe-api-mesh-docs-mcp`](https://www.npmjs.com/package/adobe-api-mesh-docs-mcp) — Adobe API Mesh — GraphQL gateway & source handlers
+- [`adobe-commerce-kb-mcp`](https://www.npmjs.com/package/adobe-commerce-kb-mcp) — Adobe Commerce Support Knowledge Base — troubleshooting & patches
+- [`adobe-io-events-docs-mcp`](https://www.npmjs.com/package/adobe-io-events-docs-mcp) — Adobe I/O Events — webhooks, journaling & event providers
 
 ---
 
 ## License
 
-MIT © Jigar Karangiya
+CC BY-NC 4.0 © 2026 [Jigar Karangiya](https://jigarkarangiya.com/) · [LinkedIn](https://www.linkedin.com/in/jigar-ahir/)

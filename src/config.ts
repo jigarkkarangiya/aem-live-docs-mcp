@@ -29,7 +29,7 @@ const docPathPrefixes = [
 ];
 
 export const config = {
-  version: "1.0.0",
+  version: "1.0.2",
 
   // AEM live base URL — all page content is available as markdown at <baseUrl><path>.md
   baseUrl: envStr("AEM_BASE_URL", "https://www.aem.live"),
