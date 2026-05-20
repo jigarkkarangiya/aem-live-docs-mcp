@@ -1,6 +1,12 @@
 # AEM Live Docs MCP
 
-An MCP (Model Context Protocol) server that gives AI assistants (Cursor, Claude, etc.) direct access to the official **Adobe Experience Manager (AEM)** documentation at [aem.live](https://www.aem.live).
+[![npm version](https://img.shields.io/npm/v/aem-live-docs-mcp)](https://www.npmjs.com/package/aem-live-docs-mcp)
+[![npm downloads](https://img.shields.io/npm/dm/aem-live-docs-mcp)](https://www.npmjs.com/package/aem-live-docs-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
+[![MCP](https://img.shields.io/badge/MCP-compatible-purple)](https://modelcontextprotocol.io/)
+
+A **Model Context Protocol (MCP) server** that gives AI assistants — Cursor, Claude, Cline, Windsurf, GitHub Copilot, and any MCP-compatible client — direct access to the official **Adobe Experience Manager (AEM / Edge Delivery Services)** documentation at [aem.live](https://www.aem.live).
 
 Every page on aem.live is available as a native markdown file. This MCP fetches the source markdown directly — no HTML scraping, no conversion artefacts, just clean content.
 
@@ -90,6 +96,18 @@ npm install && npm run build
 
 ---
 
+## Example Outputs
+
+**Querying supported content types in AEM:**
+
+![AEM content types query result](5b96f50c-5e27-4bda-8a44-800408ac7080.png)
+
+**Asking how AEM integrates with Adobe Commerce:**
+
+![AEM and Adobe Commerce integration](79806a86-0604-4530-b2dd-b755ea131613.png)
+
+---
+
 ## Example Prompts
 
 ```
@@ -151,10 +169,22 @@ Server listens on `http://localhost:3000` with CORS enabled.
 
 ---
 
+## Find This MCP
+
+| Registry | Link |
+|---|---|
+| npm | [npmjs.com/package/aem-live-docs-mcp](https://www.npmjs.com/package/aem-live-docs-mcp) |
+| GitHub | [github.com/jigarkkarangiya/aem-live-docs-mcp](https://github.com/jigarkkarangiya/aem-live-docs-mcp) |
+| mcp.so | [mcp.so](https://mcp.so) — search `aem-live-docs` |
+| Smithery | [smithery.ai](https://smithery.ai) — search `aem-live-docs` |
+| Glama | [glama.ai/mcp/servers](https://glama.ai/mcp/servers) — search `aem` |
+
+---
+
 ## Related MCPs
 
-- [adobe-commerce-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-docs-mcp) — Adobe Commerce merchant/user docs
-- [adobe-commerce-dev-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-dev-docs-mcp) — Adobe Commerce developer docs
+- [adobe-commerce-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-docs-mcp) — Adobe Commerce merchant/user/admin docs (experienceleague.adobe.com)
+- [adobe-commerce-dev-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-dev-docs-mcp) — Adobe Commerce developer docs (developer.adobe.com/commerce)
 
 ---
 
