@@ -1,6 +1,6 @@
 {
   "name": "aem-live-docs-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Adobe Experience Manager (AEM) documentation at aem.live. Gives AI assistants (Claude, Cursor, Cline, Windsurf) direct access to AEM Edge Delivery Services docs — blocks, authoring, CDN setup, Sidekick, Lighthouse 100, and more.",
   "type": "module",
   "main": "dist/index.js",
